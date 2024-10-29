@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:she_fit_app/Fiteness/fitnessAIAssistances.dart';
 import 'package:she_fit_app/Fiteness/fitnessHomepage.dart';
 import 'package:she_fit_app/MentalWellbeing/MentalHomepage.dart';
 import 'package:she_fit_app/services/auth_services.dart';
@@ -168,7 +169,7 @@ class _HomePageState extends State<HomePage> {
           gradientColors: [Color(0xFF00897B), Color(0xFF4DB6AC)],
           onTap: () => Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) => DashboardPage()),
+            MaterialPageRoute(builder: (context) => Fitnessaiassistances()),
           ),
         ),
         SizedBox(height: 20),

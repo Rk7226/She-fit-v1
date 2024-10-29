@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:she_fit_app/Fiteness/fitnessAIAssistances.dart';
 import 'package:she_fit_app/firebase_options.dart';
 import 'package:she_fit_app/homepage/homepage.dart';
 import 'package:she_fit_app/pages/reproductivehealth.dart';
@@ -52,6 +53,7 @@ class MyApp extends StatelessWidget {
         '/signup': (context) => SignUpPage(),
         '/menstrual-tracker': (context) => ReproductiveHealthPage(),
         '/pregnancy-tracker': (context) => PregnancyTrackingPage(),
+        '/AIfitness': (context) => Fitnessaiassistances(),
 
         // Calculator routes
         '/calculator': (context) => CalculatorHome(),

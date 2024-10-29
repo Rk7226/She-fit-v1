@@ -5,7 +5,7 @@ class Fitnessaiassistances extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Welcome Page'),
+        title: Text(' Welcome Page'),
         centerTitle: true,
       ),
       body: Center(

@@ -119,7 +119,7 @@ class Rephomepage extends StatelessWidget {
           description: 'Journey through your pregnancy milestones',
           imagePath: 'assets/images/pregnancy.png',
           gradientColors: [Color(0xFF9C27B0), Color(0xFFBA68C8)],
-          onTap: () => Navigator.pushNamed(context, '/pregnancy-tracker'),
+          onTap: () => Navigator.pushNamed(context, '/AIfitness'),
           icon: Icons.child_care,
         ),
         SizedBox(height: 20),
